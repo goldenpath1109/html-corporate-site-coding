@@ -1,0 +1,707 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="keywords" content="" />
+    <meta name="description" content="" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap"
+      rel="stylesheet"
+    />
+    <!-- <link rel="stylesheet" href="./assets/css/animate.css" /> -->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/npm/slick-carousel/slick/slick.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/npm/slick-carousel/slick/slick-theme.css"
+    />
+    <!-- <link rel="stylesheet" type="text/css" href="https://unpkg.com/swiper/swiper-bundle.min.css"> -->
+    <link rel="stylesheet" href="./assets/css/common.css" />
+    <link rel="stylesheet" href="./assets/css/reset.css" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <title>サクライ楽器</title>
+  </head>
+
+  <body>
+    <!-- header -->
+    <header>
+      <div class="navbar">
+        <div class="nav-left">
+          <div class="logo_img">
+            <img
+              src="./assets/img/logo-2.png"
+              class="logo_img"
+              alt="header_logo"
+            />
+          </div>
+        </div>
+        <div class="nav-right flex justify-center">
+          <div class="sp-hide">
+            <div class="dropdown">
+              <div class="dropbtn">発表会について▼</div>
+              <div class="dropdown-content">
+                <a href="#support">まるごと発表会サポート</a>
+                <a href="#search_date" id=>日程から探す</a>
+                <a href="#search_venue">会場から探す</a>
+              </div>
+            </div>
+            <div class="dropdown">
+              <div class="dropbtn">レスナー▼</div>
+              <div class="dropdown-content">
+                <a href="#lesnar_benefit">レスナー特典</a>
+                <a href="#registration_process">発表会の様子</a>
+                <a href="#about_process">登録について</a>
+              </div>
+            </div>
+            <div class="dropdown">
+              <div class="dropbtn">Jet ▼</div>
+              <div class="dropdown-content">
+                <a href="#">Jetスケジュール</a>
+                <a href="#registration_process">発表会の様子</a>
+                <a href="#about_process">登録について</a>
+              </div>
+            </div>
+          </div>
+          <div class="icon_bar flex">
+            <a href="#" class="line">
+              <div class="line_img">
+                <img src="./assets/img/LINE_Brand_icon.png" alt="line" />
+              </div>
+            </a>
+            <a href="#" class="nav_icon">
+              <img src="./assets/img/3.jpg" alt="header_piano" />
+            </a>
+            <a href="#" class="nav_icon">
+              <img src="./assets/img/4.jpg" alt="header_phone" />
+            </a>
+          </div>
+          <div class="burger_menu">
+            <div class="menu_btn">
+              <div class="bar"></div>
+              <div class="bar"></div>
+              <div class="bar"></div>
+            </div>
+            <div class="menu_text">MENU</div>
+          </div>
+          <!-- hamberger -->
+          <div class="burger">
+            <div class="burger_img">
+              <img src="./assets/img/burger-logo.png" alt="hamburger image" />
+            </div>
+            <div class="burger_container">
+              <div class="menu_ul">
+                <div class="dropdown_sp">
+                  <button class="dropbtn">発表会について</button>
+                  <img src="./assets/img/arrow.png" alt="down arrow" />
+                  <div class="dropdown_sp_content">
+                    <a href="#support" class="aa_btn">まるごと発表会サポート</a>
+                    <a href="#search_date" class="aa_btn">日程から探す</a>
+                    <a href="#search_venue" class="aa_btn">会場から探す</a>
+                  </div>
+                </div>
+              </div>
+              <div class="menu_ul">
+                <div class="dropdown_sp">
+                  <button class="dropbtn">レスナー</button>
+                  <img src="./assets/img/arrow.png" alt="down arrow" />
+                  <div class="dropdown_sp_content">
+                    <a href="#lesnar_benefit" class="aa_btn">レスナー特典</a>
+                    <a href="#registration_process"  class="aa_btn">発表会の様子</a>
+                    <a href="#about_process"  class="aa_btn">登録について</a>
+                  </div>
+                </div>
+              </div>
+              <div class="menu_ul">
+                <div class="dropdown_sp">
+                  <button class="dropbtn">Jet</button>
+                  <img src="./assets/img/arrow.png" alt="down arrow" />
+                  <div class="dropdown_sp_content">
+                    <a href="#" class="aa_btn">Jetスケジュール</a>
+                    <a href="#registration_process" class="aa_btn">発表会の様子</a>
+                    <a href="#about_process" class="aa_btn">登録について</a>
+                  </div>
+                </div>
+              </div>
+              <div class="burgerbtn">お問い合わせ</div>
+            </div>
+          </div>
+          <!-- /hamberger -->
+        </div>
+      </div>
+    </header>
+    <!-- /header -->
+    <main>
+      <section>
+        <div class="mainvisual">
+          <picture>
+            <source
+              media="(min-width:769px)"
+              srcset="./assets/img/lessonerPC.png"
+            />
+            <source
+              media="(max-width:768px)"
+              srcset="./assets/img/lessonerSP.png"
+            />
+            <img src="./assets/img/lessonerPC.png" alt="lessonerPC" />
+          </picture>
+        </div>
+      </section>
+      <section>
+        <div class="container mx-auto topics">
+          <h1 class="topics_h1">TOPICS</h1>
+          <div class="topic">
+            <div class="topic_content">
+              <div class="news">
+                <div class="any_more">
+                  <a href="#">
+                    <img src="./assets/img/and_more.png" alt="any_more" />
+                  </a>
+                </div>
+                <div class="news_content">
+                  <div class="date">2022.5.19</div>
+                  <div class="renew">
+                    2023.5.14の合同発表会のお知らせを更新しました
+                  </div>
+                </div>
+                <div class="news_content">
+                  <div class="date">2022.5.19</div>
+                  <div class="renew">
+                    2023.5.14の合同発表会のお知らせを更新しました
+                  </div>
+                </div>
+                <div class="news_content">
+                  <div class="date">2022.5.19</div>
+                  <div class="renew">
+                    2023.5.14の合同発表会のお知らせを更新しました
+                  </div>
+                </div>
+              </div>
+              <div class="schedulebtn_bar">
+                <a class="schedule_link" href="#">
+                  <div class="schedulebtn">
+                    <span>合同発表会</span>
+                    <p>日程から探す</p>
+                  </div>
+                </a>
+                <a class="schedule_link" href="#" id="two">
+                  <div class="schedulebtn" id="two_1">
+                    <span>合同発表会</span>
+                    <p>会場から探す</p>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="roundbtn_bar">
+            <a href="#lesnar" id="link">
+              <div class="roundbtn1">レスナー</div>
+            </a>
+            <a href="#jet">
+              <div class="roundbtn2">Jet</div>
+            </a>
+          </div>
+        </div>
+      </section>
+      <section>
+        <div class="container">
+          <div class="yellowbar" id="lesnar">
+            <h2>レスナー</h2>
+            <p>ーご自宅でピアノを指導されている先生ー</p>
+          </div>
+          <div class="announce">
+            ご自宅で指導をされている先生のサポートをいたします。発表会をお一人で開催するのが難しい方への合同発表会のご提案や発表会の
+            ご準備までお手伝いさせていただきます。他にも楽譜や楽器などお困りごとは何でもご相談ください。
+          </div>
+          <div class="subcontainer">
+            <div class="title_bar" id="lesnar_benefit">
+              <h3>レスナー特典</h3>
+              <img src="./assets/img/english/Benefits.png" alt="benefit">
+            </div>
+            <div class="benefit_imgs">
+              <div class="yellow_pan1"></div>
+              <div class="benefit_img">
+                <img
+                  src="./assets/img/lessonertokuten1.png"
+                  alt="lessonertokuten1"
+                />
+              </div>
+              <div class="benefit_img">
+                <img
+                  src="./assets/img/lessonertokuten2.png"
+                  alt="lessonertokuten2"
+                />
+              </div>
+              <div class="benefit_img">
+                <img
+                  src="./assets/img/lessonertokuten3.png"
+                  alt="lessonertokuten3"
+                />
+              </div>
+              <div class="benefit_img">
+                <img
+                  src="./assets/img/lessonertokuten4.png"
+                  alt="lessonertokuten4"
+                />
+              </div>
+            </div>
+            <div class="title_bar support_bar" id="support">
+              <h3>まるごと発表会サポート</h3>
+              <img src="./assets/img/english/Support.png" alt="support">
+            </div>
+            <div class="support_imgs">
+              <div class="yellow_pan2"></div>
+              <div class="support_img_bar">
+                <div class="support_img_text">
+                  <div class="support_img">
+                    <img src="./assets/img/Group 394.png" alt="support_img1" />
+                  </div>
+                  <div class="support_text">
+                    <p>
+                      ホールに関わることは全て担当します。
+                      事前打ち合わせ、本番、終演後を一貫 してサポートします。
+                    </p>
+                  </div>
+                </div>
+                <div class="support_img_text">
+                  <div class="support_img">
+                    <img src="./assets/img/Group 396.png" alt="suppsrt_img2" />
+                  </div>
+                  <div class="support_text">
+                    <p>
+                      LINE・メール・FAXなどから、情報を
+                      頂戴し、プログラムの作成は全て行い ます。
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="support_img_bar">
+                <div class="support_img_text">
+                  <div class="support_img">
+                    <img src="./assets/img/Group 395.png" alt="support_img3" />
+                  </div>
+                  <div class="support_text">
+                    <p>
+                      プロの司会者がアナウンスします。
+                      舞台袖には進行スタッフがいるので
+                      初めての発表会でも安心です。
+                    </p>
+                  </div>
+                </div>
+                <div class="support_img_text">
+                  <div class="support_img">
+                    <img src="./assets/img/Group 393.png" alt="suppsrt_img4" />
+                  </div>
+                  <div class="support_text">
+                    <p>
+                      プロのカメラマンが写真撮影を行い
+                      ます。記念品やお花※などの準備も 全て行います。
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="title_bar" id="search_date">
+              <h3>日程</h3>
+              <img src="./assets/img/english/Schedule.png" alt="schedule">
+            </div>
+            <div class="plan_bar">
+              <div class="planbtn_bar">
+                <a href="#" target="_blank"><div class="planbtn">2022年3月21日(月・祝) 開催</div></a>
+                <a href="#" target="_blank"><div class="planbtn">2022年3月21日(月・祝) 開催</div></a>
+                <a href="#" target="_blank"><div class="planbtn">2022年3月21日(月・祝) 開催</div></a>
+              </div>
+              <div class="planbtn_bar">
+                <a href="#" target="_blank"><div class="planbtn">2022年3月21日(月・祝) 開催</div></a>
+                <a href="#" target="_blank"><div class="planbtn">2022年3月21日(月・祝) 開催</div></a>
+                <a href="#" target="_blank"><div class="planbtn">2022年3月21日(月・祝) 開催</div></a>
+              </div>
+            </div>
+            <div class="title_bar" id="hall_img">
+              <h3>会場</h3>
+              <img src="./assets/img/english/Hall.png" alt="hall_img">
+            </div>
+            <div class="slider pc_show">
+              <div class="slide">
+                <div class="hall_img">
+                  <img src="./assets/img/hall1.png" alt="ステラ・イースト" />
+                </div>
+                <p>ステラ・イースト</p>
+              </div>
+              <div class="slide">
+                <div class="hall_img">
+                  <img src="./assets/img/hall2.png" alt="IMAホール" />
+                </div>
+                <p>IMAホール</p>
+              </div>
+              <div class="slide">
+                <div class="hall_img">
+                  <img src="./assets/img/hall3.png" alt="ゆめりあホール" />
+                </div>
+                <p>ゆめりあホール</p>
+              </div>
+            </div>
+            <div class="slideshow-container sp_show_slider">
+
+                <div class="mySlides fade">
+                    <div class="numbertext">1 / 3</div>
+                    <img src="./assets/img/hall1.png" style="width:100%">
+                    <div class="text">ステラ・イースト</div>
+                </div>
+
+                <div class="mySlides fade">
+                    <div class="numbertext">2 / 3</div>
+                    <img src="./assets/img/hall2.png" style="width:100%">
+                    <div class="text">IMAホール</div>
+                </div>
+
+                <div class="mySlides fade">
+                    <div class="numbertext">3 / 3</div>
+                    <img src="./assets/img/hall3.png" style="width:100%">
+                     <div class="text">ゆめりあホール</div>
+                </div>
+
+                <a class="prev" onclick="plusSlides(-1)">❮</a>
+                <a class="next" onclick="plusSlides(1)">❯</a>
+
+            </div>
+            <br>
+
+            <div class="_point sp_show_slider">
+                  <span class="dot" onclick="currentSlide(1)"></span> 
+                  <span class="dot" onclick="currentSlide(2)"></span> 
+                  <span class="dot" onclick="currentSlide(3)"></span> 
+            </div>
+            <div class="title_bar" id="picture_rectial">
+              <h3>合同発表会の様子</h3>
+              <img src="./assets/img/english/Picture-of-an-recital.png" alt="">
+            </div>
+            <div class="recital_container">
+              <div class="yellow_pan3"></div>
+              <div class="recital_bar">
+                <div class="recital_title">
+                  <p>2022年2月合同発表会</p>
+                </div>
+                <div class="recital_imgs" id="accordion1">
+                  <!-- <div class="scrollslider">
+                    <div class="scrollslider" id="scrollslider1">
+                      <img src="./assets/img/recital1.png" alt="recital1">
+                    </div>
+                    <div class="scrollslider">
+                      <img src="./assets/img/recital2.png" alt="recital2">
+                    </div>
+                    <div class="scrollslider">
+                      <img src="./assets/img/recital3.png" alt="recital3">
+                    </div>
+                    <div class="scrollslider">
+                      <img src="./assets/img/recital4.png" alt="recital4">
+                    </div>
+                  </div> -->
+                  <div class="recital_img_bar">
+                    <div class="recital_img">
+                      <img src="./assets/img/recital1.png" alt="recital1" />
+                    </div>
+                    <div class="recital_img">
+                      <img src="./assets/img/recital2.png" alt="recital2" />
+                    </div>
+                  </div>
+                  <div class="recital_img_bar pc_show">
+                    <div class="recital_img">
+                      <img src="./assets/img/recital3.png" alt="recital3" />
+                    </div>
+                    <div class="recital_img">
+                      <img src="./assets/img/recital4.png" alt="recital4" />
+                    </div>
+                  </div>
+                </div>
+                <div class="viewbtn" id="viewBtn1" onclick="viewAll(1)">
+                  <p>VIEW ALL</p>
+                </div>
+              </div>
+              <div class="recital_bar">
+                <div class="recital_title">
+                  <p>2022年2月合同発表会</p>
+                </div>
+                <div class="recital_imgs" id="accordion2">
+                  <div class="recital_img_bar">
+                    <div class="recital_img">
+                      <img src="./assets/img/recital1.png" alt="recital1" />
+                    </div>
+                    <div class="recital_img">
+                      <img src="./assets/img/recital2.png" alt="recital2" />
+                    </div>
+                  </div>
+                  <div class="recital_img_bar pc_show">
+                    <div class="recital_img">
+                      <img src="./assets/img/recital3.png" alt="recital3" />
+                    </div>
+                    <div class="recital_img">
+                      <img src="./assets/img/recital4.png" alt="recital4" />
+                    </div>
+                  </div>
+                </div>
+                <div class="viewbtn" id="viewBtn2" onclick="viewAll(2)">
+                  <p>VIEW ALL</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section>
+        <div class="container">
+          <div class="register">
+            <div class="register_title">
+              <p>登録の流れ</p>
+            </div>
+            <div class="register_bar">
+              <div class="register_table">
+                <div class="table_head">
+                  <h4>1</h4>
+                  <p>公式LINE登録</p>
+                </div>
+                <div class="table_body">
+                  SLC公式LINE(サクライ楽器レス<br />
+                  ナーズサークル)よりお友だち追加を<br />
+                  してください<br class="pc_show" /><br class="pc_show" /><br
+                    class="pc_show"
+                  />
+                  https://lin.ee/UE1whJT
+                </div>
+              </div>
+              <div class="register_table">
+                <div class="table_head">
+                  <h4>2</h4>
+                  <p>情報入力</p>
+                </div>
+                <div class="table_body">
+                  トーク画面に<br />
+                  ・お名前<br />
+                  ・ご住所<br />
+                  ・TEL<br />
+                  ・希望する情報<br />
+                  を入力して返信してください。
+                </div>
+              </div>
+              <div class="register_table">
+                <div class="table_head">
+                  <h4>3</h4>
+                  <p>ご返信</p>
+                </div>
+                <div class="table_body">
+                  LINEにてご希望いただきました情報についてのご返信をいたします。
+                </div>
+              </div>
+              <div class="register_table">
+                <div class="table_head">
+                  <h4>Q</h4>
+                  <p>その他</p>
+                </div>
+                <div class="table_body">
+                  年会費などは一切かかりません。ご登録いただくだけで特典を受けることができます。
+                  また生徒さんが出演できるコンサートやグレードなどのご案内も優先的にさせていただきます。
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="jet" id="jet">
+            <div class="jet_title">
+              <h3>Jet</h3>
+              <p>ーご自宅でエレクトーンを指導されている先生ー</p>
+            </div>
+            <div class="jet_text">
+              jetはエレクトーンをご自宅で教えるためのサポートをいたします。
+              サクライ楽器支部の定例会や研究会。専用教材＆専用ツールの
+              ご用意、サウンドカーニバルやギャラクシーコンサート等の各種イベントも開催します。
+              また、先生方の発表会のお手伝いもします。
+            </div>
+          </div>
+          <div class="jetplan">
+            <div class="jetplan_title">
+              <p>Jetスケジュール</p>
+            </div>
+            <div class="jetplan_content">
+              <div class="jetbtn_bar">
+                <div class="jetplanbtn">＜jet＞2022年5月スケジュール</div>
+                <div class="jetplanbtn">＜jet＞2022年5月スケジュール</div>
+                <div class="jetplanbtn">＜jet＞2022年5月スケジュール</div>
+                <div class="jetplanbtn">＜jet＞2022年5月スケジュール</div>
+                <div class="jetplanbtn">＜jet＞2022年5月スケジュール</div>
+                <div class="jetplanbtn">＜jet＞2022年5月スケジュール</div>
+              </div>
+              <div class="jetbtn_bar">
+                <div class="jetplanbtn">＜jet＞2022年5月スケジュール</div>
+                <div class="jetplanbtn">＜jet＞2022年5月スケジュール</div>
+                <div class="jetplanbtn">＜jet＞2022年5月スケジュール</div>
+                <div class="jetplanbtn">＜jet＞2022年5月スケジュール</div>
+                <div class="jetplanbtn">＜jet＞2022年5月スケジュール</div>
+                <div class="jetplanbtn">＜jet＞2022年5月スケジュール</div>
+              </div>
+            </div>
+          </div>
+          <div class="subcontainer">
+            <div class="precital_title_bar" id="bottom_prectial">
+              <h3>合同発表会の様子</h3>
+              <img src="./assets/img/english/Picture-of-an-recital.png" alt="picture_rectial_img">
+            </div>
+            <div class="precital_bar">
+              <div class="precital_title">
+                <p>2022年1月jetシニア発表会</p>
+              </div>
+              <div class="recital_imgs" id="accordion3">
+                <div class="recital_img_bar">
+                  <div class="recital_img">
+                    <img src="./assets/img/recital5.png" alt="recital5" />
+                  </div>
+                  <div class="recital_img">
+                    <img src="./assets/img/recital5.png" alt="recital5" />
+                  </div>
+                </div>
+                <div class="recital_img_bar pc_show">
+                  <div class="recital_img">
+                    <img
+                      src="./assets/img/recital5.png"
+                      alt="recital5"
+                    />
+                  </div>
+                  <div class="recital_img">
+                    <img src="./assets/img/recital5.png" alt="recital5" />
+                  </div>
+                </div>
+              </div>
+              <div class="prviewbtn" id="viewBtn3" onclick="viewAll(3)">
+                <p>VIEW ALL</p>
+              </div>
+              <div class="green_pan"></div>
+            </div>
+          </div>
+          <div class="resinar_bar">
+            <div class="resinar_img">
+              <img src="./assets/img/resinar.png" alt="resinar" />
+            </div>
+            <div class="resinar" id="about_process">
+              <div class="resinar_head">
+                <p>レスナー登録について</p>
+              </div>
+              <div class="resinar_body">
+                <p>
+                  エレクトーン個人宅指導者をめざしている皆さんのための
+                  「jetフレッシュ会員」がスタートします！1年後にjet全日本エレクトーン指導者協会の会員となり、
+                  スムーズに教室活動をはじめるための準備をjet本部がサポートします！
+                </p>
+              </div>
+              <div class="downbtn_bar">
+                <div class="downbtn">ヤマハJetについて▶︎</div>
+                <div class="downbtn">要項をダウンロード▶︎</div>
+              </div>
+            </div>
+          </div>
+          <div class="resinar_bar_sp">
+            <div class="resinar">
+              <div class="resinar_head">
+                <p>レスナー登録について</p>
+              </div>
+              <div class="resinar_body_sp">
+                <p>
+                  エレクトーン個人宅指導者をめざしている皆さんのための
+                  「jetフレッシュ会員」がスタートします！1年後にjet全日本エレクトーン指導者協会の会員となり、
+                  スムーズに教室活動をはじめるための準備をjet本部がサポートします！
+                </p>
+              </div>
+            </div>
+            <div class="resinar_img">
+              <img src="./assets/img/resinar.png" alt="resinar" />
+            </div>
+            <div class="downbtn_bar">
+              <div class="downbtn">ヤマハJetについて▶︎</div>
+              <div class="downbtn">要項をダウンロード▶︎</div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <!-- footer -->
+    <footer>
+      <div class="container">
+        <div class="footer_img pc_show">
+            <img src="./assets/img/footer_img_pc.png" alt="footer image" />
+          </picture>
+        </div>
+        <div class="footer_img_sp sp_show footer_bottom_block">
+          <div class="footer_img_sp_row">
+            <div>
+              <img src="./assets/img/footer/osirase.gif" alt="osirase_img">
+            </div>
+            <div>
+              <img src="./assets/img/footer/atelier.gif" alt="atelier_img">
+            </div>
+          </div>
+          <div class="footer_img_sp_row">
+            <div>
+              <img src="./assets/img/footer/pcg.gif" alt="osirase_img">
+            </div>
+            <div>
+              <img src="./assets/img/footer/ya.gif" alt="atelier_img">
+            </div>
+          </div>
+          <div class="footer_img_sp_row">
+            <div>
+              <img src="./assets/img/footer/onkyoumamoru.gif" alt="osirase_img">
+            </div>
+            <div>
+              <img src="./assets/img/footer/otorento.gif" alt="atelier_img">
+            </div>
+          </div>
+          <div class="footer_img_sp_row">
+            <div>
+              <img src="./assets/img/footer/online.jpg" alt="osirase_img">
+            </div>
+            <div>
+              <img src="./assets/img/footer/yaa.gif" alt="atelier_img">
+            </div>
+          </div>
+                    <div class="footer_img_sp_row">
+            <div>
+              <img src="./assets/img/footer/company-i.jpg" alt="osirase_img">
+            </div>
+            <div>
+              <img src="./assets/img/footer/toiawase.jpg" alt="atelier_img">
+            </div>
+          </div>
+          
+        </div>
+      </div>
+    </footer>
+    <!-- /footer -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/slick-carousel/slick/slick.min.js"></script>
+    <script src="./assets/js/slider.js"></script>
+    <script src="./assets/js/hyperlink.js"></script>
+    <script src="./assets/js/view.js"></script>
+    <script>
+      const burger_menu = document.querySelector(".burger_menu");
+      const burger = document.querySelector(".burger");
+      burger_menu.addEventListener("click", mobileMenu);
+      function mobileMenu() {
+        burger_menu.classList.toggle("active");
+        burger.classList.toggle("active");
+      }
+      
+      const navLink = document.querySelectorAll(".aa_btn");
+      navLink.forEach((n) => n.addEventListener("click", closeMenu));
+      function closeMenu() {
+        burger_menu.classList.remove("active");
+        burger.classList.remove("active");
+      }
+    </script>
+    <script></script>
+  </body>
+</html>
