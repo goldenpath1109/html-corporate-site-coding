@@ -46,7 +46,7 @@ body {
 .dropdown-content {
 	display: none;
 	position: absolute;
-	width: 36.9rem;
+	width: 42.9rem;
 	height: 41.9rem;
 	background-color: rgba(21, 21, 21, 0.7);
 	font-size: 2.7rem;
@@ -119,10 +119,7 @@ body {
 	text-align: center;
 	cursor: pointer;
 }
-.burger_menu:hover {
-	background-color: #717171;
-	color: white;
-}
+
 .menu_btn {
 	margin-top: 1rem;
 	cursor: pointer;
@@ -130,8 +127,8 @@ body {
 }
 .bar {
 	width: 48px;
-	height: 3px;
-	margin: 1.5rem auto;
+	height: 2px;
+	margin: 1.7rem auto;
 	background-color: black;
 	transition: transform 0.3s ease-in-out;
 }
@@ -747,7 +744,8 @@ h1 {
 }
 .topics_h1 {
 	color: #6a876f;
-	font-family: "Kozuka Gothic Pr6N R";
+	font-family: kozuka-mincho-pr6n, serif;
+	font-style: normal;
 }
 .renew {
 	color: #707070;
@@ -806,7 +804,7 @@ h1 {
 		transform: translateY(12px) rotate(45deg);
 	}
 	.burger_menu.active .bar:nth-child(3) {
-		transform: translateY(-12px) rotate(-45deg);
+		transform: translateY(-9px) rotate(-45deg);
 	}
 }
 @media screen and (max-width: 810px) {
@@ -1704,4 +1702,26 @@ img {
 }
 .burger_menu {
 	background-color: white;
+}
+/* update 10-14 */
+.footer_row {
+	display: flex;
+	column-gap: 3.5rem;
+	margin-top: 3.5rem;
+	justify-content: space-around;
+	margin-left: 2rem;
+	margin-right: 2rem;
+}
+.footer_row .footer_col_3 {
+	width: 25%;
+}
+.footer_row .footer_col_3 img {
+	width: 100%;
+	height: auto;
+	margin-bottom: 3.4rem;
+}
+.table_head .h4_q {
+	font-size: 5.6rem;
+	font-family: hiragino-mincho-pron, sans-serif;
+	font-style: normal;
 }
