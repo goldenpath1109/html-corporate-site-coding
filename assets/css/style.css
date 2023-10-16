@@ -215,11 +215,11 @@ h1 {
 .roundbtn_bar {
 	width: 100%;
 	display: flex;
-	justify-content: space-between;
+	justify-content: center;
 	font-size: 3rem;
 }
 .roundbtn_bar a {
-	margin: 5.2rem auto 9rem;
+	margin: 5.2rem 4.5rem 9rem;
 }
 .roundbtn1,
 .roundbtn2 {
@@ -706,7 +706,6 @@ h1 {
 	margin-top: 64px;
 	margin-left: auto;
 	margin-right: auto;
-	padding-left: 14px;
 }
 .dropdown_sp {
 	display: flex;
@@ -765,9 +764,6 @@ h1 {
 	cursor: pointer;
 	margin-top: 10rem;
 }
-.burgerbtn:hover {
-	background-image: linear-gradient(to right, #fc6100, #f2fa00);
-}
 .scrollslider {
 	display: none;
 	height: 162px;
@@ -822,7 +818,7 @@ h1 {
 	.news {
 		width: 100%;
 		height: auto;
-		padding: 0px 12.05% 30px 2.8%;
+		padding: 0px 2.8% 30px 2.8%;
 	}
 	.news_content {
 		font-size: 13px;
@@ -878,8 +874,9 @@ h1 {
 		margin-bottom: 24px !important;
 	}
 	.yellowbar {
-		width: 100%;
+		width: 115%;
 		height: auto;
+		margin-left: -2rem;
 	}
 	.yellowbar h2 {
 		font-size: 19px;
@@ -894,7 +891,6 @@ h1 {
 		width: 100%;
 		font-size: 13px;
 		margin: 10px 6px 92.5px 3.6px;
-		padding-right: 4rem;
 	}
 	.title_bar {
 		font-size: 15px;
@@ -1656,45 +1652,45 @@ img {
 @media screen and (max-width: 768px) {
 	#lesnar_benefit img {
 		position: absolute;
-		top: -104%;
-		left: 12rem;
-		width: 28rem;
-		height: 6rem;
+		top: -74%;
+		left: 13rem;
+		width: 20rem;
+		height: 4.5rem;
 	}
 	#support img {
 		position: absolute;
-		top: -104%;
-		left: 18rem;
-		width: 28rem;
-		height: 6rem;
+		top: -80%;
+		left: 20rem;
+		width: 20rem;
+		height: 4.5rem;
 	}
 	#search_date img {
 		position: absolute;
-		top: -104%;
+		top: -68%;
 		left: 6rem;
-		width: 28rem;
-		height: 6rem;
+		width: 20rem;
+		height: 4.5rem;
 	}
 	#hall_img img {
 		position: absolute;
-		top: -104%;
-		left: 5rem;
-		width: 28rem;
-		height: 6rem;
+		top: -55%;
+		left: 6rem;
+		width: 20rem;
+		height: 4rem;
 	}
 	#picture_rectial img {
 		position: absolute;
-		top: -73%;
-		left: 13rem;
-		width: 23rem;
-		height: 5rem;
+		top: -61%;
+		left: 16rem;
+		width: 17rem;
+		height: 4rem;
 	}
 	#bottom_prectial img {
 		position: absolute;
-		top: -73%;
-		left: 13rem;
-		width: 23rem;
-		height: 5rem;
+		top: -57%;
+		left: 15rem;
+		width: 17rem;
+		height: 4rem;
 	}
 	.dropbtn {
 		background-color: #717171;
@@ -1725,5 +1721,3 @@ img {
 	font-family: hiragino-mincho-pron, sans-serif;
 	font-style: normal;
 }
-
-
