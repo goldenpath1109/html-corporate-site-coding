@@ -1202,16 +1202,16 @@ h1 {
 	}
 	.bar {
 		width: 37px;
-		height: 3px;
+		height: 1px;
 		margin: 6px auto 0px;
 		background-color: black;
 		transition: transform 0.3s ease-in-out;
 	}
 	.burger_menu.active .bar:nth-child(1) {
-		transform: translateY(9px) rotate(45deg);
+		transform: translateY(7px) rotate(45deg);
 	}
 	.burger_menu.active .bar:nth-child(3) {
-		transform: translateY(-9px) rotate(-45deg);
+		transform: translateY(-7px) rotate(-45deg);
 	}
 	.piano_text {
 		margin-bottom: 2px !important;
@@ -1695,6 +1695,16 @@ img {
 	.dropbtn {
 		background-color: #717171;
 	}
+	.table_head .h4_q {
+		display: inline-block;
+		position: relative;
+		top: 5%;
+		right: 0%;
+		font-size: 4rem;
+		font-family: hiragino-mincho-pron, sans-serif;
+		font-style: normal;
+		font-weight: 500;
+	}
 }
 .burger_menu {
 	background-color: white;
@@ -1716,8 +1726,30 @@ img {
 	height: auto;
 	margin-bottom: 3.4rem;
 }
+
+/* 10.16 */
 .table_head .h4_q {
-	font-size: 5.6rem;
+	font-size: 4.8rem;
 	font-family: hiragino-mincho-pron, sans-serif;
 	font-style: normal;
+	font-weight: 500;
+}
+.top_img {
+	margin-top: 5.5rem;
+}
+img[alt="topic_2"] {
+	width: 17.4rem;
+	height: 4.6rem;
+}
+@media screen and (max-width: 768px) {
+	.top_img {
+		margin-top: 3rem;
+		display: flex;
+		justify-content: center;
+		margin-bottom: 0.5rem;
+	}
+	img[alt="topic_2"] {
+		width: 12.4rem;
+		height: 3rem;
+	}
 }
